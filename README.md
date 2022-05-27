@@ -21,7 +21,7 @@ Please see the [changelog](CHANGELOG.md) for more information on what has change
 
 ## Credits
 
--   [Mazfreelance](https://github.com/mazfreelance)
+- [ZaiDeveloper](https://github.com/ZaiDeveloper)
 
 ## License
 
