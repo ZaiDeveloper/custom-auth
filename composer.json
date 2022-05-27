@@ -1,0 +1,41 @@
+{
+    "name": "zaizainal/custom-auth",
+    "description": "Custom Auth",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zaizainal\\CustomAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zaizainal\\CustomAuth\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zainurin Zainal",
+            "email": "zainurin.syafiq@globaltium.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zaizainal\\CustomAuth\\Providers\\CustomAuthServiceProvider"
+            ]
+        }
+    }
+}
